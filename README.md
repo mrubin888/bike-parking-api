@@ -1,16 +1,16 @@
 # bike-parking-api
 A Django REST API for a bike parking app.
 
-## Setup (Ubuntu 12.04)
+## Setup (Ubuntu 12.04.5 x64)
 1. Run `sudo apt-get update`.
 2. Install postgres with `sudo apt-get install postgresql`.
 3. Switch to postgres user.
 4. Start postgres with `psql`.
 5. Create a new database with `CREATE DATABASE dbname;`.
-6. Create a new superuser with `CREATE ROLE username PASSWORD password SUPERUSER LOGIN;`.
-7. Switch back to your project user.
+6. Create a new superuser with `CREATE ROLE username PASSWORD 'password' SUPERUSER LOGIN;`.
+7. Switch back to your user.
 8. Make sure you have python installed (tested on python 2.7). Install python with `sudo apt-get install python` if you need to.
-9. Install utility packages libpq-dev and psycopg2 with `sudo apt-get install libpq-dev psycopg2`.
+9. Install utility packages libpq-dev, python-dev, and python-psycopg2 with `sudo apt-get install libpq-dev python-dev python-psycopg2`.
 10. Install git with `sudo apt-get install git`.
 11. Clone this repository with the `git clone` command.
 12. Change directory into the root of the repository.
